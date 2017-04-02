@@ -1,0 +1,118 @@
+body {
+background-color: grey;
+background: -webkit-repeating-radial-gradient(white, LightGrey 15%, DarkGrey 15%);
+background: -o-repeating-radial-gradient(white, LightGrey 15%, DarkGrey 15%);
+background: -moz-repeating-radial-gradient(Black, LightGrey 15%, DarkGrey 20%);
+background: repeating-radial-gradient(Black, LightGrey 15%, DarkGrey 15%);
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#titleBackground {
+width: 340px;
+height:40px;
+background-color: white;
+border-radius: 15px;
+left:50%;
+top: 3%;
+position: absolute;
+transform: translate(-50%);
+box-shadow: 5px 5px 5px Black;
+}
+
+h3 {
+position: relative;
+font-family: sans-serif;
+margin-left: 11px;
+margin-top: 7px;
+}
+
+#canvas {
+background-color: white;
+height: 500px;
+width: 800px;
+border-radius: 30px;
+box-shadow: 10px 10px 10px Black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+#palette {
+float:left;
+background-color: Silver;
+height: 370px;
+width: 100px;
+border-radius: 4px Black;
+box-shadow: 10px 10px 10px Black;
+position: relative;
+border-radius: 10px;
+left: 10%;
+top: 12%;
+}
+
+.colourpicker {
+height: 40px;
+width: 40px;
+margin: 3px;
+margin-left: 30px;
+border-radius: 5px;
+}
+
+#red {
+background-color: red;
+margin-top: 15px;
+}
+
+#orange {
+background-color: orange;
+}
+
+#yellow {
+background-color: yellow;
+}
+
+#green {
+background-color: green;
+}
+
+#blue {
+background-color: blue;
+}
+
+#purple {
+background-color: purple;
+}
+
+#white {
+background-color: white;
+}
+
+#black {
+background-color: black;
+}
+
+
+#paint {
+background-color: DarkGrey;
+width: 357px;
+height: 360px;
+position: relative;
+margin: 0 auto 0 auto;
+box-shadow: 10px 10px 10px Black;
+top: 13%;
+left: 12%;
+
+}
+
+.rad {
+display: inline-block;
+background-color: white;
+height: 30px;
+width: 30px;
+margin: 1px;
+}

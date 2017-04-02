@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pärlplatta</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+		<script src='Paint.js'></script>
+		<link rel='stylesheet' href='Styling.css'>
+	</head>
+	
+		<body>
+			<div id='titleBackground'>
+			<h3>Pick a colour and paint the canvas!</h3>
+			</div>
+		
+			<div id='canvas'>
+			<div id='palette'>
+			<div class='colourpicker' id='red'></div>
+			<div class='colourpicker' id='yellow'></div>
+			<div class='colourpicker' id='blue'></div>
+			<div class='colourpicker' id='green'></div>
+			<div class='colourpicker' id='purple'></div>
+			<div class='colourpicker' id='orange'></div>
+			<div class='colourpicker' id='white'></div>
+			<div class='colourpicker' id='black'></div>
+			</div>
+			
+			
+			<div id='paint'>
+			<div id='rader'>
+			<div id='rad1'>
+			<div class='rad' id='rad1box1'></div>
+			<div class='rad' id='rad1box2'></div>
+			<div class='rad' id='rad1box3'></div>
+			<div class='rad' id='rad1box4'></div>
+			<div class='rad' id='rad1box5'></div>
+			<div class='rad' id='rad1box6'></div>
+			<div class='rad' id='rad1box7'></div>
+			<div class='rad' id='rad1box8'></div>
+			<div class='rad' id='rad1box9'></div>
+			<div class='rad' id='rad1box10'></div>
+			</div>
+			
+			<div id='rad2'>
+			<div class='rad' id='rad2box1'></div>
+			<div class='rad' id='rad2box2'></div>
+			<div class='rad' id='rad2box3'></div>
+			<div class='rad' id='rad2box4'></div>
+			<div class='rad' id='rad2box5'></div>
+			<div class='rad' id='rad2box6'></div>
+			<div class='rad' id='rad2box7'></div>
+			<div class='rad' id='rad2box8'></div>
+			<div class='rad' id='rad2box9'></div>
+			<div class='rad' id='rad2box10'></div>
+			</div>
+			
+			<div id='rad3'>
+			<div class='rad' id='rad3box1'></div>
+			<div class='rad' id='rad3box2'></div>
+			<div class='rad' id='rad3box3'></div>
+			<div class='rad' id='rad3box4'></div>
+			<div class='rad' id='rad3box5'></div>
+			<div class='rad' id='rad3box6'></div>
+			<div class='rad' id='rad3box7'></div>
+			<div class='rad' id='rad3box8'></div>
+			<div class='rad' id='rad3box9'></div>
+			<div class='rad' id='rad3box10'></div>
+			</div>
+			
+			<div id='rad4'>
+			<div class='rad' id='rad4box1'></div>
+			<div class='rad' id='rad4box2'></div>
+			<div class='rad' id='rad4box3'></div>
+			<div class='rad' id='rad4box4'></div>
+			<div class='rad' id='rad4box5'></div>
+			<div class='rad' id='rad4box6'></div>
+			<div class='rad' id='rad4box7'></div>
+			<div class='rad' id='rad4box8'></div>
+			<div class='rad' id='rad4box9'></div>
+			<div class='rad' id='rad4box10'></div>
+			</div>
+			
+			<div id='rad5'>
+			<div class='rad' id='rad5box1'></div>
+			<div class='rad' id='rad5box2'></div>
+			<div class='rad' id='rad5box3'></div>
+			<div class='rad' id='rad5box4'></div>
+			<div class='rad' id='rad5box5'></div>
+			<div class='rad' id='rad5box6'></div>
+			<div class='rad' id='rad5box7'></div>
+			<div class='rad' id='rad5box8'></div>
+			<div class='rad' id='rad5box9'></div>
+			<div class='rad' id='rad5box10'></div>
+			</div>
+			
+			<div id='rad6'>
+			<div class='rad' id='rad6box1'></div>
+			<div class='rad' id='rad6box2'></div>
+			<div class='rad' id='rad6box3'></div>
+			<div class='rad' id='rad6box4'></div>
+			<div class='rad' id='rad6box5'></div>
+			<div class='rad' id='rad6box6'></div>
+			<div class='rad' id='rad6box7'></div>
+			<div class='rad' id='rad6box8'></div>
+			<div class='rad' id='rad6box9'></div>
+			<div class='rad' id='rad6box10'></div>
+			</div>
+			
+			<div id='rad7'>
+			<div class='rad' id='rad7box1'></div>
+			<div class='rad' id='rad7box2'></div>
+			<div class='rad' id='rad7box3'></div>
+			<div class='rad' id='rad7box4'></div>
+			<div class='rad' id='rad7box5'></div>
+			<div class='rad' id='rad7box6'></div>
+			<div class='rad' id='rad7box7'></div>
+			<div class='rad' id='rad7box8'></div>
+			<div class='rad' id='rad7box9'></div>
+			<div class='rad' id='rad7box10'></div>
+			</div>
+			
+			<div id='rad8'>
+			<div class='rad' id='rad8box1'></div>
+			<div class='rad' id='rad8box2'></div>
+			<div class='rad' id='rad8box3'></div>
+			<div class='rad' id='rad8box4'></div>
+			<div class='rad' id='rad8box5'></div>
+			<div class='rad' id='rad8box6'></div>
+			<div class='rad' id='rad8box7'></div>
+			<div class='rad' id='rad8box8'></div>
+			<div class='rad' id='rad8box9'></div>
+			<div class='rad' id='rad8box10'></div>
+			</div>
+			
+			<div id='rad9'>
+			<div class='rad' id='rad9box1'></div>
+			<div class='rad' id='rad9box2'></div>
+			<div class='rad' id='rad9box3'></div>
+			<div class='rad' id='rad9box4'></div>
+			<div class='rad' id='rad9box5'></div>
+			<div class='rad' id='rad9box6'></div>
+			<div class='rad' id='rad9box7'></div>
+			<div class='rad' id='rad9box8'></div>
+			<div class='rad' id='rad9box9'></div>
+			<div class='rad' id='rad9box10'></div>
+			</div>
+			
+			<div id='rad10'>
+			<div class='rad' id='rad10box1'></div>
+			<div class='rad' id='rad10box2'></div>
+			<div class='rad' id='rad10box3'></div>
+			<div class='rad' id='rad10box4'></div>
+			<div class='rad' id='rad10box5'></div>
+			<div class='rad' id='rad10box6'></div>
+			<div class='rad' id='rad10box7'></div>
+			<div class='rad' id='rad10box8'></div>
+			<div class='rad' id='rad10box9'></div>
+			<div class='rad' id='rad10box10'></div>
+			</div>
+			</div>
+			</div>
+			</div>
+		</body>
+
+
+</html>
